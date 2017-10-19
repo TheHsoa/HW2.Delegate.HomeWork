@@ -47,6 +47,7 @@
     <Compile Include="Model\Contact.cs" />
     <Compile Include="Model\Email.cs" />
     <Compile Include="Model\IEntity.cs" />
+    <Compile Include="Model\IOrdered.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\Phone.cs" />
     <Compile Include="Model\User.cs" />

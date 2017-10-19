@@ -4,9 +4,9 @@ using HomeWork.Data.Model;
 
 namespace HomeWork.Data
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             var user = new User { Id = 1, Name = "Name" };
 
@@ -19,6 +19,8 @@ namespace HomeWork.Data
             contactRepository.Add(phone);
 
             Console.WriteLine(contactRepository.GetById(1));
+
+            Console.ReadKey();
         }
 
         private static IRepository<TEntity> GetRepository<TEntity>() where TEntity : IEntity

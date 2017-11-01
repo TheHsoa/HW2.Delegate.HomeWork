@@ -1,6 +1,6 @@
 ﻿namespace HomeWork.Data.Model
 {
-    public class Contact : IEntity, IOrdered
+    public class Contact : IOrderedEntity
     {
         public long Id { get; set; }
         public virtual string Value { get; set; }

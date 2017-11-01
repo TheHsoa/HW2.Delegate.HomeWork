@@ -2,7 +2,7 @@
 
 namespace HomeWork.UI.Model
 {
-    internal class OrderModel : IModel
+    public class OrderModel
     {
         public OrderModel(Order order)
         {

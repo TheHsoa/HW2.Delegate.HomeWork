@@ -2,7 +2,7 @@
 
 namespace HomeWork.UI.Model
 {
-    internal class ContactModel : IModel
+    public class ContactModel
     {
         public string Value { get; set; }
 

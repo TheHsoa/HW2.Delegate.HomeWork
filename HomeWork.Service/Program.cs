@@ -3,9 +3,9 @@ using HomeWork.UI.Service;
 
 namespace HomeWork.UI
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             var service = new OrderService();
 
@@ -14,6 +14,8 @@ namespace HomeWork.UI
             Console.WriteLine(user.Contacts.Length);
             Console.WriteLine(user.Orders[0].Total);
             Console.WriteLine(user.Orders[1].Total);
+
+            Console.ReadKey();
         }
     }
 }

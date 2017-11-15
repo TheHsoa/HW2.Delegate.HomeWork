@@ -1,6 +1,6 @@
 ﻿namespace HomeWork.Data.Model
 {
-    public class Order : IEntity
+    public class Order : IOrderedEntity
     {
         public long Id { get; set; }
 

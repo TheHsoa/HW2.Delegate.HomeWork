@@ -44,9 +44,11 @@
   <ItemGroup>
     <Compile Include="Data\EntityRepository.cs" />
     <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Extensions\IRepositoryExtensions.cs" />
     <Compile Include="Model\Contact.cs" />
     <Compile Include="Model\Email.cs" />
     <Compile Include="Model\IEntity.cs" />
+    <Compile Include="Model\IOrderedEntity.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\Phone.cs" />
     <Compile Include="Model\User.cs" />
